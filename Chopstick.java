@@ -1,5 +1,5 @@
 public class Chopstick {
-	private boolean taken = false;
+    private boolean taken = false;
 
     public synchronized void take() throws InterruptedException {
         while (taken) {
